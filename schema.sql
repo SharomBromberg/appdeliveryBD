@@ -21,6 +21,7 @@ CREATE TABLE Restaurante (
     Nombre TEXT NOT NULL,
     Categoria TEXT NOT NULL,
     Calificacion REAL DEFAULT 0.0,
+    Direccion TEXT NOT NULL,
     -- Aplicación de Desnormalización para lecturas ultra rápidas en UI
     Icono_Categoria TEXT
 );
