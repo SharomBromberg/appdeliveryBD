@@ -60,3 +60,5 @@ COMMIT;
 
 -- Consulta de verificación para confirmar que se insertaron los 1,000 registros:
 SELECT COUNT(*) AS Total_Platos_En_Base_De_Datos FROM Plato;
+
+
